@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClicksPerSecond:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClicksPerSecond_jar</output-path>
+    <root id="archive" name="ClicksPerSecond.jar">
+      <element id="module-output" name="ClicksPerSecond" />
+    </root>
+  </artifact>
+</component>

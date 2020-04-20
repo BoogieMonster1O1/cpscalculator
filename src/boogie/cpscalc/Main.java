@@ -70,7 +70,7 @@ public class Main implements Elements{
 	    new Main();
     }
 
-    public static void infoBox(String infoMessage, String titleBar)
+    public void infoBox(String infoMessage, String titleBar)
     {
         JOptionPane.showMessageDialog(null, infoMessage, titleBar, JOptionPane.INFORMATION_MESSAGE);
     }
