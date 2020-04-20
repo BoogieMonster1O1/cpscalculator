@@ -18,7 +18,7 @@ public class Main implements Elements{
         clicks.setBounds(100,150,250,90);
 
         heading.setFont(new java.awt.Font("Arial", Font.BOLD,22));
-        clicker.setFont(new java.awt.Font("Arial", Font.BOLD,32));
+        clicker.setFont(new java.awt.Font("Arial", Font.BOLD,24));
         clicks.setFont(new java.awt.Font("Arial", Font.BOLD,30));
 
         frame.add(clicks);
@@ -33,7 +33,15 @@ public class Main implements Elements{
 
         clicker.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
+                if(clicker.getText()=="Start"){
+                    clicker.setText("Click Here!!");
+                    clickscount++;
+                    clicks.setText(Integer.toString(clickscount));
+                }
+                else if(clicker.getText()=="Click Here!!"){
+                    clickscount++;
+                    clicks.setText(Integer.toString(clickscount));
+                }
             }
         });
     }
