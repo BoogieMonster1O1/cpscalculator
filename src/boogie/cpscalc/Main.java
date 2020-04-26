@@ -53,6 +53,7 @@ public class Main implements Elements{
                                     clickscount=0;
                                     clicks.setText(Integer.toString(clickscount));
                                     clicker.setText("Start");
+                                    frame.add(choice);
                                 }
                             },
                             getTimeDuration()
@@ -61,6 +62,7 @@ public class Main implements Elements{
                 else if(clicker.getText()=="Click Here!!"){
                     clickscount++;
                     clicks.setText(Integer.toString(clickscount));
+                    frame.remove(choice);
                 }
             }
         });

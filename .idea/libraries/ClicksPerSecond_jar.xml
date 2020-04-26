@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ClicksPerSecond_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/ClicksPerSecond_jar/ClicksPerSecond.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/ClicksPerSecond_jar/._ClicksPerSecond.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
